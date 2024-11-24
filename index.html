@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>书籍</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="书籍信息 tech-dept">
+    <h2>科幻小说</h2>
+    <div class="employee-card high-rating" id="special-employee">星际穿越 - 评分：4.6</div>
+    <div class="employee-card high-rating">火星救援 - 评分：4.8</div>
+    <div class="employee-card">银河帝国 - 评分：4.3</div>
+  </div>
+
+  <div class="书籍信息 marketing-dept">
+    <h2>文学经典</h2>
+    <div class="employee-card">傲慢与偏见 - 评分：4.4</div>
+    <div class="employee-card high-rating">了不起的盖茨比 - 评分：4.7</div>
+  </div>
+
+  <div class="书籍信息 hr-dept">
+    <h2>历史</h2>
+    <div class="employee-card">人类简史 - 评分：4.5</div>
+    <div class="employee-card high-rating">枪炮、病菌与钢铁 - 评分：4.6</div>
+  </div>
+
+
+  <!-- 时钟显示 -->
+  <div id="clock" style="font-size: 2rem; margin-top: 20px;">2024年11月24日 星期天 19:23:20.092 时区: UTC+08:00</div>
+  
+  <!-- 屏幕信息显示 -->
+  <div id="screen-info" style="font-size: 1rem; margin-top: 20px;">屏幕实际宽度: 1536px, 屏幕实际高度: 864px, 色盘深度: 24-bit, 显示区域宽度: 1536px, 显示区域高度: 816px, 浏览器窗口宽度: 770px, 浏览器窗口高度: 738px</div>
+  
+  <!-- 鼠标按下坐标显示 -->
+  <div id="mouse-coordinates" style="font-size: 1rem; margin-top: 20px;">鼠标按下时的坐标: (222, 74)</div>
+  
+  <!-- 显示网页最后修改时间 -->
+  <div id="last-modified" style="font-size: 1rem; margin-top: 20px;">网页最后修改时间: 11/21/2024 22:28:22</div>
+  <script src="script.js"></script> 
+  <script src="clock.js"></script> 
+  <script src="mouseEvent.js"></script> 
+  <script src="screeninfo.js"></script> 
+  <script src="lastModified.js"></script> 
+</body>
+</html>
